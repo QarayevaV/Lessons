@@ -18,11 +18,12 @@ namespace Homework1_04._04._22
             Console.InputEncoding = Encoding.Unicode;
             Console.WriteLine("Birinci rəqəmi daxil edin:");
             int a = Convert.ToInt32(Console.ReadLine());
-            object b = a;
-            a = (int)b;
             Console.WriteLine("İkinci rəqəmi daxil edin:");
-            b = Convert.ToInt32(Console.ReadLine());
-            
+            int b = Convert.ToInt32(Console.ReadLine());
+            int c = a;
+            a = b;
+            b = c;
+
             Console.ReadLine();
         }
     }
