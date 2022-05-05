@@ -62,9 +62,9 @@ namespace Homework_17
             Console.WriteLine(" Menu:\n" + " 1 - Element elave et\n" + " 2 - Elementleri goster\n" + " 3 - Element axtar\n" + " 4 - Element editle\n" + " 5 - Element sil\n" + " 6 - Exit\n" + " Emeliyyat novunu secin:");
             int element = Convert.ToInt32(Console.ReadLine());
             ArrayList elements = new ArrayList();
-            elements.Add(15);
+            elements.Add("15");
             elements.Add("Salam");
-            elements.Add(true);
+            elements.Add("true");
 
             switch (element)
             {
